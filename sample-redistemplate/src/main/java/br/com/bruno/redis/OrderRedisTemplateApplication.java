@@ -32,8 +32,8 @@ public class OrderRedisTemplateApplication implements CommandLineRunner {
 
 
         List<UUID> ids = Arrays.asList(
-                UUID.fromString("df9ab030-a121-4582-95a6-535a69156bc1"),
-                UUID.fromString("227cb13d-3098-4b27-b498-ece874759e57"),
+                UUID.fromString("29732727-393b-40ce-b858-883c599279f5"),
+                UUID.fromString("0fbc863e-893e-4cd4-a59d-b176a3e5d340"),
                 UUID.fromString("47493192-d1d1-40cf-a592-c757cac588e6")
         );
         System.out.println(service.findAll(ids));
